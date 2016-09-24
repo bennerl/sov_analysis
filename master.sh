@@ -1,7 +1,7 @@
 #produce salmon indexes of flybase transcripts, transposons, and ERCCs for quasi mapping and quantification
-salmon index -p 4 -t ~/annotations/dmel_r6.12_trnscpt_trnspsn_ercc.fasta  -i ~/annotations/salmon_index_23 --type quasi -k 23
-salmon index -p 4 -t ~/annotations/dmel_r6.12_trnscpt_trnspsn_ercc.fasta  -i ~/annotations/salmon_index_27 --type quasi -k 27
-salmon index -p 4 -t ~/annotations/dmel_r6.12_trnscpt_trnspsn_ercc.fasta  -i ~/annotations/salmon_index_31 --type quasi -k 31
+# salmon index -p 4 -t ~/annotations/dmel_r6.12_trnscpt_trnspsn_ercc.fasta  -i ~/annotations/salmon_index_23 --type quasi -k 23
+# salmon index -p 4 -t ~/annotations/dmel_r6.12_trnscpt_trnspsn_ercc.fasta  -i ~/annotations/salmon_index_27 --type quasi -k 27
+# salmon index -p 4 -t ~/annotations/dmel_r6.12_trnscpt_trnspsn_ercc.fasta  -i ~/annotations/salmon_index_31 --type quasi -k 31
 
 for i in /Volumes/Untitled/rna_sov/Sample_*/
 do
